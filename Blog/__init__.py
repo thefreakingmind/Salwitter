@@ -6,7 +6,7 @@ from flask_bcrypt import Bcrypt
 from flask_login import LoginManager
 app = Flask(__name__)
 app.secret_key='Salman'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:mpasas12@localhost/Salwitter'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://k7gv49rbg20sdwxe:kqbe1xiyv0akj9gm@ocvwlym0zv3tcn68.cbetxkdyhwsb.us-east-1.rds.amazonaws.com/fh0pj3ghv5w81npg'
 
 
 db = SQLAlchemy(app)
