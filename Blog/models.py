@@ -6,6 +6,7 @@ from flask_admin import Admin
 from Blog import app
 from flask_admin.contrib.sqla import ModelView
 from flask_login import UserMixin
+
 admin = Admin(app, name='Salwitter Admin', template_mode='bootstrap3')
 
 @login_manager.user_loader
